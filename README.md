@@ -13,3 +13,19 @@ just follow those guide
   
 ## finaly run project by
 - composer run dev
+
+
+## test package (laravel runtime feature) guide
+- keep those in composer.json file
+"repositories": [
+        {
+            "type": "path",
+            "url": "../laravel-runtime-feature",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+
+- then run this command
+composer require al_imran/laravel-runtime-feature:@dev
