@@ -17,6 +17,7 @@ just follow those guide
 
 ## test package (laravel runtime feature) guide
 - keep those in composer.json file
+```json
 "repositories": [
         {
             "type": "path",
