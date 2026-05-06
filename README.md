@@ -1,6 +1,6 @@
 
 
-## Installation guide
+## Installation guide for fresh project and this will be new one after follow this instruction
 
 just follow those guide
 - change the .env.example to .env file first
@@ -9,7 +9,7 @@ just follow those guide
 - composer install
 - npm install
 - php artisan key:generate
-- php artisan migrate
+- php artisan migrate:fresh --seed
   
 ## finaly run project by
 - composer run dev
