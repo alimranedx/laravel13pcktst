@@ -21,7 +21,7 @@ just follow those guide
 "repositories": [
         {
             "type": "path",
-            "url": "../laravel-runtime-feature",
+            "url": "../runtime-feature-toggle",
             "options": {
                 "symlink": true
             }
